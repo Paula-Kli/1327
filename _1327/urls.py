@@ -19,6 +19,7 @@ urlpatterns = [
 	path("" + settings.MINUTES_URL_NAME + "/", include("_1327.minutes.urls")),
 	path("" + settings.POLLS_URL_NAME + "/", include("_1327.polls.urls")),
 	path("documents/", include("_1327.documents.urls")),
+	path("lists/", include("_1327.lists.urls")),
 	path("information_pages/", include("_1327.information_pages.urls")),
 	path("login", auth_views.LoginView.as_view(
 		template_name="login.html",

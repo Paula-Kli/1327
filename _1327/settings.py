@@ -50,7 +50,7 @@ FORBIDDEN_URLS = [
 	"delete-cascade", "documents", "download", "edit", "get", "hijack", "information_pages", "list", "login", "logout",
 	"menu_item", "menu_item_delete", "menu_items", "minutes", "no-direct-download", "oidc", "permissions", "polls",
 	"preview", "publish", "render", "revert", "search", "shortlink", "shortlinks", "unlinked", "update", "update_order",
-	"versions", "view_as", "ws",
+	"versions", "view_as", "ws, "lists",
 ]
 
 ANONYMOUS_GROUP_NAME = "Anonymous"
@@ -103,6 +103,7 @@ INSTALLED_APPS = [
 	'_1327.polls',
 	'_1327.shortlinks',
 	'mozilla_django_oidc',
+	'_1327.lists'
 ]
 
 MIDDLEWARE = [

@@ -1387,3 +1387,7 @@ msgstr "Seite als ausgewählter Nutzer betrachten"
 #: _1327/user_management/templates/user_management/admin_app_name.html:2
 msgid "User management"
 msgstr "Benutzerverwaltung"
+
+#: _1327/lists/templates/lists_index.html:8
+msgid "Lists"
+msgstr "Listen"
