@@ -45,12 +45,14 @@ ADMINS = [
 
 DELETE_EMPTY_PAGE_AFTER = timedelta(hours=1)
 
+EMAIL_BASE_URL = "@example.com"
+
 FORBIDDEN_URLS = [
 	"abbreviation_explanation", "admin", "attachment", "attachments", "autosave", "change", "create", "delete",
 	"delete-cascade", "documents", "download", "edit", "get", "hijack", "information_pages", "list", "login", "logout",
 	"menu_item", "menu_item_delete", "menu_items", "minutes", "no-direct-download", "oidc", "permissions", "polls",
 	"preview", "publish", "render", "revert", "search", "shortlink", "shortlinks", "unlinked", "update", "update_order",
-	"versions", "view_as", "ws, "lists",
+	"versions", "view_as", "ws", "lists"
 ]
 
 ANONYMOUS_GROUP_NAME = "Anonymous"

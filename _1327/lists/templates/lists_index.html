@@ -7,6 +7,29 @@
 	{% trans "Lists" %}
 {% endblock %}
 
-{% block content %}
-	<div>Hallo</div>
+{%  block content %}
+<p>
+<h4 class="title is-4 ">Create New List</h4>
+<form method="post">
+	<div class="field has-addons">
+		<div class="control has-icons-left is-expanded">
+			<span class="icon is-small is-left">
+				<i class="fa fa-coffee"></i>
+			</span>
+			 <input id="listname" type="text" name="listname" placeholder="Your fancy list name" value="{{ new_list_name }}">
+			<a class="button is-static">
+				{{ email_url }}
+			</a>
+		</div>
+	</div>
+
+	<div class="field is-grouped is-grouped-left">
+		<div class="control">
+			<button type="button" class="btn btn-primary">
+				Create Mailinglist
+			</button>
+		</div>
+	</div>
+</form>
+</p>
 {% endblock %}
